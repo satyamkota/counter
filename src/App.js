@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { increaseValue, decreaseValue } from './actions';
+import { increaseValue, decreaseValue } from './actions/CounterAction';
 
 function App() {
   const dispatch = useDispatch();
